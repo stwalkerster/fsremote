@@ -5,4 +5,8 @@
     <string name="hello">Hello World!</string>
     <string name="app_name">FSRemote</string>
 
+
+<string name="mainMenu1">mainMenu1</string>
+<string name="mainMenu2">mainMenu2</string><string name="mainMenu3">mainMenu3</string>
+
 </resources>
