@@ -2,11 +2,23 @@
 <resources>
     
     
-    <string name="hello">Hello World!</string>
+    
     <string name="app_name">FSRemote</string>
 
 
-<string name="mainMenu1">mainMenu1</string>
-<string name="mainMenu2">mainMenu2</string><string name="mainMenu3">mainMenu3</string>
 
+
+
+<string-array name="mainMenu"><item>Override Buttons</item>
+
+<item>Sequences</item>
+<item>Fixture Control</item><item>Console</item>
+<item>Configuration</item>
+</string-array>
+<string-array name="mainMenuDescriptors"><item>Shows the override buttons</item>
+<item>Enables / Disables Sequences</item>
+<item>Controls fixture properties such as Colour, Dimmer, Gobos, Position, etc</item>
+<item>Provides a console to compose your own commands</item>
+<item>Edits the configuration settings of this application</item>
+</string-array>
 </resources>
