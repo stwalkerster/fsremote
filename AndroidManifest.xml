@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	android:versionCode="1" android:versionName="1.0"
-	android:installLocation="preferExternal" package="com.stwalkerster.android.apps.fsremote">
-	
-	<application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true" android:enabled="true">
+	package="com.stwalkerster.android.apps.fsremote"
+	android:installLocation="auto">
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name"
+		android:debuggable="true" android:enabled="true">
 
 
 		<activity android:launchMode="standard" android:name="MainMenuActivity">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN"></action>
 				<category android:name="android.intent.category.LAUNCHER"></category>
-			
-</intent-filter>
+
+			</intent-filter>
 		</activity>
-	
-<activity android:name="ConfigMenuActivity">
-</activity>
-<activity android:name="ConsoleActivity"></activity>
-</application>
-	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
+
+		<activity android:name="ConfigMenuActivity">
+		</activity>
+		<activity android:name="ConsoleActivity"></activity>
+	</application>
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8" />
 
 
 
-	<!-- <uses-permission android:name="ACCESS_WIFI_STATE"></uses-permission> 
-		<uses-permission android:name="CHANGE_WIFI_STATE"></uses-permission> <uses-permission 
-		android:name="INTERNET"></uses-permission> <uses-configuration android:reqNavigation="undefined" 
-		android:reqHardKeyboard="false" android:reqFiveWayNav="false" android:reqKeyboardType="undefined" 
-		android:reqTouchScreen="finger"></uses-configuration> -->
+	<uses-permission android:name="ACCESS_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="CHANGE_WIFI_STATE"></uses-permission>
+	<uses-permission android:name="INTERNET"></uses-permission>
 
 
-<uses-feature android:name="FEATURE_TOUCHSCREEN" android:required="false"></uses-feature>
-<uses-feature android:name="FEATURE_WIFI" android:required="true"></uses-feature>
+	<uses-feature android:name="FEATURE_TOUCHSCREEN"
+		android:required="false"></uses-feature>
+	<uses-feature android:name="FEATURE_WIFI"
+		android:required="true"></uses-feature>
 </manifest> 

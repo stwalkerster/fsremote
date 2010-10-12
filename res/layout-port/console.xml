@@ -79,20 +79,5 @@
 
 		</TableLayout>
 	</TableRow>
-	<TableRow android:id="@+id/ConsoleTopRow"
-		android:layout_width="fill_parent" android:layout_height="fill_parent">
-		<TableLayout android:id="@+id/ConsoleTopRowTableLayout"
-			android:layout_width="fill_parent" android:layout_height="fill_parent"
-			xmlns:android="http://schemas.android.com/apk/res/android"
-			android:stretchColumns="*">
-			<TableRow android:id="@+id/ConsoleTopRowTableLayoutTopRow"
-				android:layout_width="fill_parent" android:layout_height="fill_parent">
-				<Button android:text="@+string/send" android:id="@+id/ConsoleSend"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-				<Button android:text="@+string/clear" android:id="@+id/ConsoleClear"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-			</TableRow>
-		</TableLayout>
-	</TableRow>
 </TableLayout>
 
