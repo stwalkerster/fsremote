@@ -28,4 +28,5 @@
 		android:reqHardKeyboard="false" android:reqFiveWayNav="false" android:reqKeyboardType="undefined" 
 		android:reqTouchScreen="finger"></uses-configuration> -->
 
+
 </manifest> 
