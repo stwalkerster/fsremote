@@ -29,4 +29,6 @@
 		android:reqTouchScreen="finger"></uses-configuration> -->
 
 
+<uses-feature android:name="FEATURE_TOUCHSCREEN" android:required="false"></uses-feature>
+<uses-feature android:name="FEATURE_WIFI" android:required="true"></uses-feature>
 </manifest> 
