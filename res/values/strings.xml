@@ -1,24 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    
-    
-    
-    <string name="app_name">FSRemote</string>
+	<string name="app_name">FSRemote</string>
+
+	<!-- Main menu options -->
+	<string name="overrideButtons">Override Buttons</string>
+	<string name="sequences">Sequences</string>
+	<string name="fixtureControl">Fixture Control</string>
+	<string name="console">Console</string>
+	<string name="configuration">Configuration</string>
+
+	<!-- Console commands -->
+	<string name="send">Send</string>
+	<string name="clear">Clear</string>
+	<string name="one">1</string>
+	<string name="two">2</string>
+	<string name="three">3</string>
+	<string name="four">4</string>
+	<string name="five">5</string>
+	<string name="six">6</string>
+	<string name="seven">7</string>
+	<string name="eight">8</string>
+	<string name="nine">9</string>
+	<string name="zero">0</string>
+	<string name="plus">+</string>
+	<string name="minus">-</string>
+	<string name="slash">/</string>
+	<string name="at">\@</string>
+	<string name="all">all</string>
+	<string name="ch">ch</string>
+
+	<!-- Menu options -->
+
+	<string-array name="mainMenu">
+		<item>@string/overrideButtons</item>
+
+		<item>@string/sequences</item>
+		<item>@string/fixtureControl</item>
+		<item>@string/console</item>
+		<item>@string/configuration</item>
+	</string-array>
+	<string-array name="mainMenuDescriptors">
+		<item>Shows the override buttons</item>
+		<item>Enables / Disables Sequences</item>
+		<item>Controls fixture properties such as Colour, Dimmer, Gobos,
+			Position, etc</item>
+		<item>Provides a console to compose your own commands</item>
+		<item>Edits the configuration settings of this application</item>
+	</string-array>
+	<string-array name="configMenu">
+		<item>Server IP Address</item>
+		<item>Server Port</item>
+	</string-array>
 
 
-
-
-
-<string-array name="mainMenu"><item>Override Buttons</item>
-
-<item>Sequences</item>
-<item>Fixture Control</item><item>Console</item>
-<item>Configuration</item>
-</string-array>
-<string-array name="mainMenuDescriptors"><item>Shows the override buttons</item>
-<item>Enables / Disables Sequences</item>
-<item>Controls fixture properties such as Colour, Dimmer, Gobos, Position, etc</item>
-<item>Provides a console to compose your own commands</item>
-<item>Edits the configuration settings of this application</item>
-</string-array>
 </resources>

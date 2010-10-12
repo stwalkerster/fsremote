@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout android:id="@+id/ConsoleExternalTableLayout"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:stretchColumns="*">
+	<TableRow android:id="@+id/ConsoleTopRow"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:id="@+id/ConsoleTopRowTableLayout"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/ConsoleTopRowTableLayoutTopRow"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/send" android:id="@+id/ConsoleSend"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/clear" android:id="@+id/ConsoleClear"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+		</TableLayout>
+	</TableRow>
+
+	<TableRow android:id="@+id/ConsoleTextRow"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<EditText android:id="@+id/ConsoleCommandLine"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:inputType="textNoSuggestions"></EditText>
+	</TableRow>
+	<TableRow android:id="@+id/ConsoleButtonsRow"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:id="@+id/ConsoleButtonsRowTableLayout"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow1"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/one" android:id="@+id/ConsoleOne"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/two" android:id="@+id/ConsoleTwo"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/three" android:id="@+id/ConsoleThree"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/plus" android:id="@+id/ConsolePlus"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow2"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/four" android:id="@+id/ConsoleFour"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/five" android:id="@+id/ConsoleFive"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/six" android:id="@+id/ConsoleSix"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/minus" android:id="@+id/ConsoleMinus"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow3"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/seven" android:id="@+id/ConsoleSeven"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/eight" android:id="@+id/ConsoleEight"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/nine" android:id="@+id/ConsoleNine"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/slash" android:id="@+id/ConsoleSlash"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow4"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/ch" android:id="@+id/ConsoleCh"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/zero" android:id="@+id/ConsoleZero"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/all" android:id="@+id/ConsoleAll"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/at" android:id="@+id/ConsoleAt"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+
+		</TableLayout>
+	</TableRow>
+	<TableRow android:id="@+id/ConsoleTopRow"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:id="@+id/ConsoleTopRowTableLayout"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/ConsoleTopRowTableLayoutTopRow"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/send" android:id="@+id/ConsoleSend"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/clear" android:id="@+id/ConsoleClear"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+		</TableLayout>
+	</TableRow>
+</TableLayout>
+

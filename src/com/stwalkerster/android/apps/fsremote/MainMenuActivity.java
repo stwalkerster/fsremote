@@ -2,6 +2,7 @@ package com.stwalkerster.android.apps.fsremote;
 
 import android.app.*;
 import android.content.Context;
+import android.content.Intent;
 import android.os.*;
 import android.view.View;
 import android.widget.AdapterView;
@@ -12,11 +13,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ControlActivity extends ListActivity {
+public class MainMenuActivity extends ListActivity {
 	
 	
 	
-	public ControlActivity() {
+	public MainMenuActivity() {
 		
 	}
 	
@@ -34,7 +35,14 @@ public class ControlActivity extends ListActivity {
 		
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-				// switch activity
+				if(((TextView)view).getText().equals( getResources().getString(R.string.configuration)))
+				{
+					startActivity(new Intent(MainMenuActivity.this, ConfigMenuActivity.class));
+				}
+				if(((TextView)view).getText().equals(getResources().getString(R.string.console)))
+				{
+					startActivity(new Intent(MainMenuActivity.this, ConsoleActivity.class));
+				}
 			}
 		});
 		
