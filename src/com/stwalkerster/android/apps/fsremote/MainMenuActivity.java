@@ -43,6 +43,10 @@ public class MainMenuActivity extends ListActivity {
 				{
 					startActivity(new Intent(MainMenuActivity.this, ConsoleActivity.class));
 				}
+				if(((TextView)view).getText().equals(getResources().getString(R.string.overrideButtons)))
+				{
+					startActivity(new Intent(MainMenuActivity.this, OverrideButtonsActivity.class));
+				}
 			}
 		});
 		
