@@ -14,16 +14,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainMenuActivity extends ListActivity {
-	
-	
-	
-	public MainMenuActivity() {
-		
-	}
-	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		
+		setTitle(getResources().getString(R.string.mainMenuTitle));
 		
 		String[] menuItems = getResources().getStringArray(R.array.mainMenu);
 		

@@ -18,6 +18,8 @@ public class ConsoleActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 
+		setTitle(getResources().getString(R.string.consoleTitle));
+		
 		setContentView(R.layout.console);
 
 		Button b;

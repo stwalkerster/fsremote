@@ -16,6 +16,8 @@ public class ConfigMenuActivity extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		
+		setTitle(getResources().getString(R.string.configTitle));
+		
 		String[] menuItems = getResources().getStringArray(R.array.configMenu);
 		
 		ArrayAdapter<String> aA = new ArrayAdapter<String>(this, R.layout.list_item, menuItems) ;

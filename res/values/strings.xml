@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">FSRemote</string>
+	<string name="app_name">FreeStyler Remote</string>
+
+	<!-- Titles -->
+	<string name="configTitle">FreeStyler Remote Configuration</string>
+	<string name="mainMenuTitle">@string/app_name</string>
+	<string name="consoleTitle">FreeStyler Remote Console</string>
+	<string name="overrideButtonsTitle">@string/overrideButtons</string>
 
 	<!-- Main menu options -->
 	<string name="overrideButtons">Override Buttons</string>
@@ -8,6 +14,10 @@
 	<string name="fixtureControl">Fixture Control</string>
 	<string name="console">Console</string>
 	<string name="configuration">Configuration</string>
+
+	<!--  Configuration options -->
+	<string name="configServerIp">Server IP Address</string>
+	<string name="configServerPort">Server Port</string>
 
 	<!-- Console commands -->
 	<string name="send">Send</string>
@@ -73,8 +83,8 @@
 		<item>Edits the configuration settings of this application</item>
 	</string-array>
 	<string-array name="configMenu">
-		<item>Server IP Address</item>
-		<item>Server Port</item>
+		<item>@string/configServerIp</item>
+		<item>@string/configServerPort</item>
 	</string-array>
 
 
