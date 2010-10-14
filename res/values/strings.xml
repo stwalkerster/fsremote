@@ -14,10 +14,14 @@
 	<string name="fixtureControl">Fixture Control</string>
 	<string name="console">Console</string>
 	<string name="configuration">Configuration</string>
+	<string name="connect">Connect</string>
 
 	<!--  Configuration options -->
+	<string name="prefCatServer">Server settings</string>
 	<string name="configServerIp">Server IP Address</string>
+	<string name="configServerIpSummary">The IP address of the computer running FreeStyler</string>
 	<string name="configServerPort">Server Port</string>
+	<string name="configServerPortSummary">FreeStyler TCP/IP server port</string>
 
 	<!-- Console commands -->
 	<string name="send">Send</string>
@@ -73,6 +77,7 @@
 		<item>@string/fixtureControl</item>
 		<item>@string/console</item>
 		<item>@string/configuration</item>
+		<item>@string/connect</item>
 	</string-array>
 	<string-array name="mainMenuDescriptors">
 		<item>Shows the override buttons</item>

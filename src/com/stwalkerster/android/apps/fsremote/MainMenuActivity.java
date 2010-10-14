@@ -3,7 +3,9 @@ package com.stwalkerster.android.apps.fsremote;
 import android.app.*;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.*;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -30,17 +32,33 @@ public class MainMenuActivity extends ListActivity {
 		
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id){
-				if(((TextView)view).getText().equals( getResources().getString(R.string.configuration)))
+				// override buttons
+				if(((TextView)view).getText().equals(getResources().getString(R.string.overrideButtons)))
 				{
-					startActivity(new Intent(MainMenuActivity.this, ConfigMenuActivity.class));
+					startActivity(new Intent(MainMenuActivity.this, OverrideButtonsActivity.class));
 				}
+				// sequences
+				//fixture control
+				// Console
 				if(((TextView)view).getText().equals(getResources().getString(R.string.console)))
 				{
 					startActivity(new Intent(MainMenuActivity.this, ConsoleActivity.class));
 				}
-				if(((TextView)view).getText().equals(getResources().getString(R.string.overrideButtons)))
+				//config
+				if(((TextView)view).getText().equals( getResources().getString(R.string.configuration)))
 				{
-					startActivity(new Intent(MainMenuActivity.this, OverrideButtonsActivity.class));
+					startActivity(new Intent(MainMenuActivity.this, ConfigMenuActivity.class));
+				}
+				//connect
+
+				if(((TextView)view).getText().equals(getResources().getString(R.string.connect)))
+				{
+					SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+					String ip = sp.getString("configServerIp", "192.168.1.1");
+					String prt = sp.getString("configServerPort", "3000");
+					
+					Toast.makeText(getBaseContext(), "Connecting to " + ip + ":" + prt, Toast.LENGTH_SHORT).show();
+					
 				}
 			}
 		});
