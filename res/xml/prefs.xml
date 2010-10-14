@@ -9,4 +9,140 @@
 			android:defaultValue="3000" android:title="@string/configServerPort"
 			android:key="configServerPort" />
 	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/prefCatNames">
+		<PreferenceScreen android:title="@string/prefOverrideSettings">
+			<PreferenceCategory android:title="@string/prefOverrideSettings">
+				<EditTextPreference android:name="@string/configOverrideButton1Name"
+					android:defaultValue="button1" android:title="@string/configOverrideButton1Name"
+					android:key="button1" />
+
+				<EditTextPreference android:name="@string/configOverrideButton2Name"
+					android:defaultValue="button2" android:title="@string/configOverrideButton2Name"
+					android:key="button2" />
+
+				<EditTextPreference android:name="@string/configOverrideButton3Name"
+					android:defaultValue="button3" android:title="@string/configOverrideButton3Name"
+					android:key="button3" />
+
+				<EditTextPreference android:name="@string/configOverrideButton4Name"
+					android:defaultValue="button4" android:title="@string/configOverrideButton4Name"
+					android:key="button4" />
+
+				<EditTextPreference android:name="@string/configOverrideButton5Name"
+					android:defaultValue="button5" android:title="@string/configOverrideButton5Name"
+					android:key="button5" />
+
+				<EditTextPreference android:name="@string/configOverrideButton6Name"
+					android:defaultValue="button6" android:title="@string/configOverrideButton6Name"
+					android:key="button6" />
+
+				<EditTextPreference android:name="@string/configOverrideButton7Name"
+					android:defaultValue="button7" android:title="@string/configOverrideButton7Name"
+					android:key="button7" />
+
+				<EditTextPreference android:name="@string/configOverrideButton8Name"
+					android:defaultValue="button8" android:title="@string/configOverrideButton8Name"
+					android:key="button8" />
+
+				<EditTextPreference android:name="@string/configOverrideButton9Name"
+					android:defaultValue="button9" android:title="@string/configOverrideButton9Name"
+					android:key="button9" />
+
+				<EditTextPreference android:name="@string/configOverrideButton10Name"
+					android:defaultValue="button10" android:title="@string/configOverrideButton10Name"
+					android:key="button10" />
+
+				<EditTextPreference android:name="@string/configOverrideButton11Name"
+					android:defaultValue="button11" android:title="@string/configOverrideButton11Name"
+					android:key="button11" />
+
+				<EditTextPreference android:name="@string/configOverrideButton12Name"
+					android:defaultValue="button12" android:title="@string/configOverrideButton12Name"
+					android:key="button12" />
+
+				<EditTextPreference android:name="@string/configOverrideButton13Name"
+					android:defaultValue="button13" android:title="@string/configOverrideButton13Name"
+					android:key="button13" />
+
+				<EditTextPreference android:name="@string/configOverrideButton14Name"
+					android:defaultValue="button14" android:title="@string/configOverrideButton14Name"
+					android:key="button14" />
+
+				<EditTextPreference android:name="@string/configOverrideButton15Name"
+					android:defaultValue="button15" android:title="@string/configOverrideButton15Name"
+					android:key="button15" />
+
+				<EditTextPreference android:name="@string/configOverrideButton16Name"
+					android:defaultValue="button16" android:title="@string/configOverrideButton16Name"
+					android:key="button16" />
+
+				<EditTextPreference android:name="@string/configOverrideButton17Name"
+					android:defaultValue="button17" android:title="@string/configOverrideButton17Name"
+					android:key="button17" />
+
+				<EditTextPreference android:name="@string/configOverrideButton18Name"
+					android:defaultValue="button18" android:title="@string/configOverrideButton18Name"
+					android:key="button18" />
+
+				<EditTextPreference android:name="@string/configOverrideButton19Name"
+					android:defaultValue="button19" android:title="@string/configOverrideButton19Name"
+					android:key="button19" />
+
+				<EditTextPreference android:name="@string/configOverrideButton20Name"
+					android:defaultValue="button20" android:title="@string/configOverrideButton20Name"
+					android:key="button20" />
+
+
+				<EditTextPreference android:name="@string/configOverrideButton21Name"
+					android:defaultValue="button21" android:title="@string/configOverrideButton21Name"
+					android:key="button21" />
+
+				<EditTextPreference android:name="@string/configOverrideButton22Name"
+					android:defaultValue="button22" android:title="@string/configOverrideButton22Name"
+					android:key="button22" />
+
+				<EditTextPreference android:name="@string/configOverrideButton23Name"
+					android:defaultValue="button23" android:title="@string/configOverrideButton23Name"
+					android:key="button23" />
+
+				<EditTextPreference android:name="@string/configOverrideButton24Name"
+					android:defaultValue="button24" android:title="@string/configOverrideButton24Name"
+					android:key="button24" />
+
+				<EditTextPreference android:name="@string/configOverrideButton25Name"
+					android:defaultValue="button25" android:title="@string/configOverrideButton25Name"
+					android:key="button25" />
+
+				<EditTextPreference android:name="@string/configOverrideButton26Name"
+					android:defaultValue="button26" android:title="@string/configOverrideButton26Name"
+					android:key="button26" />
+
+				<EditTextPreference android:name="@string/configOverrideButton27Name"
+					android:defaultValue="button27" android:title="@string/configOverrideButton27Name"
+					android:key="button27" />
+
+				<EditTextPreference android:name="@string/configOverrideButton28Name"
+					android:defaultValue="button28" android:title="@string/configOverrideButton28Name"
+					android:key="button28" />
+
+				<EditTextPreference android:name="@string/configOverrideButton29Name"
+					android:defaultValue="button29" android:title="@string/configOverrideButton29Name"
+					android:key="button29" />
+
+				<EditTextPreference android:name="@string/configOverrideButton30Name"
+					android:defaultValue="button30" android:title="@string/configOverrideButton30Name"
+					android:key="button30" />
+					
+					
+				<EditTextPreference android:name="@string/configOverrideButton31Name"
+					android:defaultValue="button31" android:title="@string/configOverrideButton31Name"
+					android:key="button31" />
+
+				<EditTextPreference android:name="@string/configOverrideButton32Name"
+					android:defaultValue="button32" android:title="@string/configOverrideButton32Name"
+					android:key="button32" />
+			</PreferenceCategory>
+		</PreferenceScreen>
+		<PreferenceScreen></PreferenceScreen>
+	</PreferenceCategory>
 </PreferenceScreen>

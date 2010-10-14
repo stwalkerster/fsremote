@@ -19,9 +19,47 @@
 	<!--  Configuration options -->
 	<string name="prefCatServer">Server settings</string>
 	<string name="configServerIp">Server IP Address</string>
-	<string name="configServerIpSummary">The IP address of the computer running FreeStyler</string>
+	<string name="configServerIpSummary">The IP address of the computer running FreeStyler
+	</string>
 	<string name="configServerPort">Server Port</string>
 	<string name="configServerPortSummary">FreeStyler TCP/IP server port</string>
+
+	<string name="prefCatNames">Names of buttons and sequences</string>
+	<string name="prefOverrideSettings">Override button names</string>
+
+	<string name="configOverrideButton1Name">Button1</string>
+	<string name="configOverrideButton2Name">Button2</string>
+	<string name="configOverrideButton3Name">Button3</string>
+	<string name="configOverrideButton4Name">Button4</string>
+	<string name="configOverrideButton5Name">Button5</string>
+	<string name="configOverrideButton6Name">Button6</string>
+	<string name="configOverrideButton7Name">Button7</string>
+	<string name="configOverrideButton8Name">Button8</string>
+	<string name="configOverrideButton9Name">Button9</string>
+	<string name="configOverrideButton10Name">Button10</string>
+	<string name="configOverrideButton11Name">Button11</string>
+	<string name="configOverrideButton12Name">Button12</string>
+	<string name="configOverrideButton13Name">Button13</string>
+	<string name="configOverrideButton14Name">Button14</string>
+	<string name="configOverrideButton15Name">Button15</string>
+	<string name="configOverrideButton16Name">Button16</string>
+	<string name="configOverrideButton17Name">Button17</string>
+	<string name="configOverrideButton18Name">Button18</string>
+	<string name="configOverrideButton19Name">Button19</string>
+	<string name="configOverrideButton20Name">Button10</string>
+	<string name="configOverrideButton21Name">Button21</string>
+	<string name="configOverrideButton22Name">Button22</string>
+	<string name="configOverrideButton23Name">Button23</string>
+	<string name="configOverrideButton24Name">Button24</string>
+	<string name="configOverrideButton25Name">Button25</string>
+	<string name="configOverrideButton26Name">Button26</string>
+	<string name="configOverrideButton27Name">Button27</string>
+	<string name="configOverrideButton28Name">Button28</string>
+	<string name="configOverrideButton29Name">Button29</string>
+	<string name="configOverrideButton30Name">Button20</string>
+	<string name="configOverrideButton31Name">Button31</string>
+	<string name="configOverrideButton32Name">Button32</string>
+
 
 	<!-- Console commands -->
 	<string name="send">Send</string>
@@ -67,7 +105,7 @@
 	<string name="thirty">30</string>
 	<string name="thirtyone">31</string>
 	<string name="thirtytwo">32</string>
-	
+
 	<!-- Menu options -->
 
 	<string-array name="mainMenu">
