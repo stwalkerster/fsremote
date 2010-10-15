@@ -38,6 +38,10 @@ public class MainMenuActivity extends ListActivity {
 					startActivity(new Intent(MainMenuActivity.this, OverrideButtonsActivity.class));
 				}
 				// sequences
+				if(((TextView)view).getText().equals(getResources().getString(R.string.sequences)))
+				{
+					startActivity(new Intent(MainMenuActivity.this, SequenceActivity.class));
+				}
 				//fixture control
 				// Console
 				if(((TextView)view).getText().equals(getResources().getString(R.string.console)))

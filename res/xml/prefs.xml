@@ -132,8 +132,8 @@
 				<EditTextPreference android:name="@string/configOverrideButton30Name"
 					android:defaultValue="button30" android:title="@string/configOverrideButton30Name"
 					android:key="button30" />
-					
-					
+
+
 				<EditTextPreference android:name="@string/configOverrideButton31Name"
 					android:defaultValue="button31" android:title="@string/configOverrideButton31Name"
 					android:key="button31" />
@@ -143,6 +143,69 @@
 					android:key="button32" />
 			</PreferenceCategory>
 		</PreferenceScreen>
-		<PreferenceScreen></PreferenceScreen>
+		<PreferenceScreen android:title="@string/prefSequenceSettings">
+			<PreferenceCategory android:title="@string/prefSequenceSettings">
+				<EditTextPreference android:name="@string/configSequence1Name"
+					android:defaultValue="sequence1" android:title="@string/configSequence1Name"
+					android:key="sequence1" />
+				<EditTextPreference android:name="@string/configSequence2Name"
+					android:defaultValue="sequence2" android:title="@string/configSequence2Name"
+					android:key="sequence2" />
+				<EditTextPreference android:name="@string/configSequence3Name"
+					android:defaultValue="sequence3" android:title="@string/configSequence3Name"
+					android:key="sequence3" />
+				<EditTextPreference android:name="@string/configSequence4Name"
+					android:defaultValue="sequence4" android:title="@string/configSequence4Name"
+					android:key="sequence4" />
+				<EditTextPreference android:name="@string/configSequence5Name"
+					android:defaultValue="sequence5" android:title="@string/configSequence5Name"
+					android:key="sequence5" />
+				<EditTextPreference android:name="@string/configSequence6Name"
+					android:defaultValue="sequence6" android:title="@string/configSequence6Name"
+					android:key="sequence6" />
+				<EditTextPreference android:name="@string/configSequence7Name"
+					android:defaultValue="sequence7" android:title="@string/configSequence7Name"
+					android:key="sequence7" />
+				<EditTextPreference android:name="@string/configSequence8Name"
+					android:defaultValue="sequence8" android:title="@string/configSequence8Name"
+					android:key="sequence8" />
+				<EditTextPreference android:name="@string/configSequence9Name"
+					android:defaultValue="sequence9" android:title="@string/configSequence9Name"
+					android:key="sequence9" />
+				<EditTextPreference android:name="@string/configSequence10Name"
+					android:defaultValue="sequence10" android:title="@string/configSequence10Name"
+					android:key="sequence10" />
+				<EditTextPreference android:name="@string/configSequence11Name"
+					android:defaultValue="sequence11" android:title="@string/configSequence11Name"
+					android:key="sequence11" />
+				<EditTextPreference android:name="@string/configSequence12Name"
+					android:defaultValue="sequence12" android:title="@string/configSequence12Name"
+					android:key="sequence12" />
+				<EditTextPreference android:name="@string/configSequence13Name"
+					android:defaultValue="sequence13" android:title="@string/configSequence13Name"
+					android:key="sequence13" />
+				<EditTextPreference android:name="@string/configSequence14Name"
+					android:defaultValue="sequence14" android:title="@string/configSequence14Name"
+					android:key="sequence14" />
+				<EditTextPreference android:name="@string/configSequence15Name"
+					android:defaultValue="sequence15" android:title="@string/configSequence15Name"
+					android:key="sequence15" />
+				<EditTextPreference android:name="@string/configSequence16Name"
+					android:defaultValue="sequence16" android:title="@string/configSequence16Name"
+					android:key="sequence16" />
+				<EditTextPreference android:name="@string/configSequence17Name"
+					android:defaultValue="sequence17" android:title="@string/configSequence17Name"
+					android:key="sequence17" />
+				<EditTextPreference android:name="@string/configSequence18Name"
+					android:defaultValue="sequence18" android:title="@string/configSequence18Name"
+					android:key="sequence18" />
+				<EditTextPreference android:name="@string/configSequence19Name"
+					android:defaultValue="sequence19" android:title="@string/configSequence19Name"
+					android:key="sequence19" />
+				<EditTextPreference android:name="@string/configSequence20Name"
+					android:defaultValue="sequence20" android:title="@string/configSequence20Name"
+					android:key="sequence20" />
+			</PreferenceCategory>
+		</PreferenceScreen>
 	</PreferenceCategory>
 </PreferenceScreen>
