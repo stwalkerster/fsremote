@@ -7,7 +7,7 @@
 		<EditTextPreference android:name="@string/configServerPort"
 			android:summary="@string/configServerPortSummary"
 			android:defaultValue="3000" android:title="@string/configServerPort"
-			android:key="configServerPort" />
+			android:key="configServerPort" android:inputType="phone" />
 	</PreferenceCategory>
 	<PreferenceCategory android:title="@string/prefCatNames">
 		<PreferenceScreen android:title="@string/prefOverrideSettings">

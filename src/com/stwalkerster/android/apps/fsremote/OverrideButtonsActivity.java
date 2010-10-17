@@ -71,7 +71,7 @@ public class OverrideButtonsActivity extends ListActivity {
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				Toast.makeText(getBaseContext(), "overide"+(position+1), Toast.LENGTH_SHORT).show();
+				NetworkComms.sendData( "overide"+(position+1),getBaseContext());
 			}
 		});
 	}

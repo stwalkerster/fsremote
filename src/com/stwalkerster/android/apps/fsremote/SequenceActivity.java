@@ -55,7 +55,7 @@ public class SequenceActivity extends ListActivity {
 		lv.setOnItemClickListener(new OnItemClickListener() {
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				Toast.makeText(getBaseContext(), "seq"+(position+1), Toast.LENGTH_SHORT).show();
+			NetworkComms.sendData( "seq"+(position+1),getBaseContext());
 			}
 		});
 	}
