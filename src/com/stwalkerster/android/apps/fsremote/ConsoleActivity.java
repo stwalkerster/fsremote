@@ -17,8 +17,6 @@ public class ConsoleActivity extends Activity {
 
 		setContentView(R.layout.console);
 
-		Button b;
-
 		((Button) findViewById(R.id.ConsoleOne))
 				.setOnClickListener(mOnButtonConsoleSimpleClickListener);
 		((Button) findViewById(R.id.ConsoleTwo))
