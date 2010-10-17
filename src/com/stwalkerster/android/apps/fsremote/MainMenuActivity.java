@@ -52,17 +52,6 @@ public class MainMenuActivity extends ListActivity {
 				{
 					startActivity(new Intent(MainMenuActivity.this, ConfigMenuActivity.class));
 				}
-				//connect
-
-				if(((TextView)view).getText().equals(getResources().getString(R.string.connect)))
-				{
-					SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-					String ip = sp.getString("configServerIp", "192.168.1.1");
-					String prt = sp.getString("configServerPort", "3000");
-					
-					Toast.makeText(getBaseContext(), "Connecting to " + ip + ":" + prt, Toast.LENGTH_SHORT).show();
-					
-				}
 			}
 		});
 		
