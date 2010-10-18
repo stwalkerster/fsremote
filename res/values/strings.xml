@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">DMX Controller</string>
+	<string name="app_name">FreeStyler DMX Controller</string>
 
 	<!-- Titles -->
 	<string name="configTitle">FreeStyler DMX Remote Configuration</string>
