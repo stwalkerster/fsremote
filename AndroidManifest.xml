@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.stwalkerster.android.apps.fsremote" android:installLocation="preferExternal" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="r19" android:versionCode="19">
+<manifest package="com.stwalkerster.android.apps.fsremote" android:installLocation="preferExternal" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName=" rev 20" android:versionCode="20">
 	
 
 
@@ -32,5 +32,5 @@
 <activity android:name="SequenceActivity"></activity>
 </application>
 
-<uses-sdk android:targetSdkVersion="3" android:minSdkVersion="3"></uses-sdk>
+<uses-sdk android:minSdkVersion="3" android:targetSdkVersion="8"></uses-sdk>
 </manifest> 
