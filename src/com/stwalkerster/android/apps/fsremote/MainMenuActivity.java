@@ -2,9 +2,7 @@ package com.stwalkerster.android.apps.fsremote;
 
 import android.app.ListActivity;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -51,17 +49,6 @@ public class MainMenuActivity extends ListActivity {
 				if(((TextView)view).getText().equals( getResources().getString(R.string.configuration)))
 				{
 					startActivity(new Intent(MainMenuActivity.this, ConfigMenuActivity.class));
-				}
-				//connect
-
-				if(((TextView)view).getText().equals(getResources().getString(R.string.connect)))
-				{
-					SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-					String ip = sp.getString("configServerIp", "192.168.1.1");
-					String prt = sp.getString("configServerPort", "3000");
-					
-					Toast.makeText(getBaseContext(), "Connecting to " + ip + ":" + prt, Toast.LENGTH_SHORT).show();
-					
 				}
 			}
 		});

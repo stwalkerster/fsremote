@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="app_name">FreeStyler Remote</string>
+	<string name="app_name">FreeStyler DMX Controller</string>
 
 	<!-- Titles -->
-	<string name="configTitle">FreeStyler Remote Configuration</string>
+	<string name="configTitle">FreeStyler DMX Remote Configuration</string>
 	<string name="mainMenuTitle">@string/app_name</string>
-	<string name="consoleTitle">FreeStyler Remote Console</string>
+	<string name="consoleTitle">FreeStyler DMX Remote Console</string>
 	<string name="overrideButtonsTitle">@string/overrideButtons</string>
 
 	<!-- Main menu options -->
 	<string name="overrideButtons">Override Buttons</string>
 	<string name="sequences">Sequences</string>
-	<string name="fixtureControl">Fixture Control</string>
 	<string name="console">Console</string>
 	<string name="configuration">Configuration</string>
-	<string name="connect">Connect</string>
 
 	<!--  Configuration options -->
 	<string name="prefCatServer">Server settings</string>
@@ -132,16 +130,12 @@
 		<item>@string/overrideButtons</item>
 
 		<item>@string/sequences</item>
-		<item>@string/fixtureControl</item>
 		<item>@string/console</item>
 		<item>@string/configuration</item>
-		<item>@string/connect</item>
 	</string-array>
 	<string-array name="mainMenuDescriptors">
 		<item>Shows the override buttons</item>
 		<item>Enables / Disables Sequences</item>
-		<item>Controls fixture properties such as Colour, Dimmer, Gobos,
-			Position, etc</item>
 		<item>Provides a console to compose your own commands</item>
 		<item>Edits the configuration settings of this application</item>
 	</string-array>
