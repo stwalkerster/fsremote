@@ -80,5 +80,25 @@
 			</TableRow>
 		</TableLayout>
 	</TableRow>
+	<TableRow>
+		<View android:layout_width="fill_parent" android:layout_height="2dip" android:background="#FF00FF00" />
+	</TableRow>
+	<TableRow android:id="@+id/ConsoleQuickButtons"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TableLayout android:id="@+id/ConsoleQuickButtonsTableLayout"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:stretchColumns="*">
+			<TableRow android:id="@+id/ConsoleQuickButtonsTableLayoutRowOne"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/blackout" android:id="@+id/ConsoleBlackout"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/tapsync" android:id="@+id/ConsoleTap"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/favourite" android:id="@+id/ConsoleFavourite"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+		</TableLayout>
+	</TableRow>
 </TableLayout>
 

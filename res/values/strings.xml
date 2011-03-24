@@ -83,6 +83,9 @@
 	<string name="send">Send</string>
 	<string name="clear">Clear</string>
 	<string name="repeat">Repeat</string>
+	<string name="blackout">Blackout</string>
+	<string name="tapsync">Tap</string>
+	<string name="favourite">Favourite</string>
 	<string name="plus">+</string>
 	<string name="minus">-</string>
 	<string name="slash">/</string>

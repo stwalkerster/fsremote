@@ -60,7 +60,13 @@ public class ConsoleActivity extends Activity {
 		((Button) findViewById(R.id.ConsoleClear))
 				.setOnClickListener(mOnButtonConsoleClearClickListener);
 		((Button) findViewById(R.id.ConsoleRepeat))
-		.setOnClickListener(mOnButtonConsoleRepeatClickListener);
+				.setOnClickListener(mOnButtonConsoleRepeatClickListener);
+		((Button) findViewById(R.id.ConsoleBlackout))
+				.setOnClickListener(mOnButtonConsoleBlackoutClickListener);
+		((Button) findViewById(R.id.ConsoleTap))
+				.setOnClickListener(mOnButtonConsoleTapClickListener);
+		((Button) findViewById(R.id.ConsoleFavourite))
+				.setOnClickListener(mOnButtonConsoleFavouriteClickListener);
 	}
 
 	private OnClickListener mOnButtonConsoleSimpleClickListener = new OnClickListener() {
@@ -101,6 +107,19 @@ public class ConsoleActivity extends Activity {
 			t.setText("");
 		}
 	};
-
-
+	private OnClickListener mOnButtonConsoleBlackoutClickListener = new OnClickListener() {
+		public void onClick(View v) {
+			NetworkComms.sendData("blackout", getBaseContext());
+		}
+	};
+	private OnClickListener mOnButtonConsoleTapClickListener = new OnClickListener() {
+		public void onClick(View v) {
+			NetworkComms.sendData("tap", getBaseContext());
+		}
+	};
+	private OnClickListener mOnButtonConsoleFavouriteClickListener = new OnClickListener() {
+		public void onClick(View v) {
+			NetworkComms.sendData("favorite", getBaseContext());
+		}
+	};
 }
