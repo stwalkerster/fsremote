@@ -12,7 +12,7 @@
 	
 	
 	<application android:icon="@drawable/icon" android:label="@string/app_name"
-		android:enabled="true" android:debuggable="false">
+		android:enabled="true" android:debuggable="true">
 
 
 		<activity android:launchMode="standard" android:name="MainMenuActivity">
@@ -25,7 +25,7 @@
 
 		<activity android:name="ConfigMenuActivity">
 		</activity>
-		<activity android:name="ConsoleActivity"></activity>
+		<activity android:name="ConsoleActivity" android:screenOrientation="portrait"></activity>
 	<activity android:name="OverrideButtonsActivity"></activity>
 <activity android:name="SequenceActivity"></activity>
 </application>

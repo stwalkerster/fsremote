@@ -14,6 +14,8 @@
 				android:layout_width="fill_parent" android:layout_height="fill_parent">
 				<Button android:text="@+string/send" android:id="@+id/ConsoleSend"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/repeat" android:id="@+id/ConsoleRepeat"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 				<Button android:text="@+string/clear" android:id="@+id/ConsoleClear"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 			</TableRow>
@@ -42,12 +44,6 @@
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 				<Button android:text="@+string/plus" android:id="@+id/ConsolePlus"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-
-				<Button android:text="@+string/minus" android:id="@+id/ConsoleMinus"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-
-				<Button android:text="@+string/slash" android:id="@+id/ConsoleSlash"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 			</TableRow>
 			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow2"
 				android:layout_width="fill_parent" android:layout_height="fill_parent">
@@ -57,11 +53,7 @@
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 				<Button android:text="@+string/six" android:id="@+id/ConsoleSix"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-				<Button android:text="@+string/ch" android:id="@+id/ConsoleCh"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-				<Button android:text="@+string/at" android:id="@+id/ConsoleAt"
-					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-				<Button android:text="@+string/all" android:id="@+id/ConsoleAll"
+				<Button android:text="@+string/minus" android:id="@+id/ConsoleMinus"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 			</TableRow>
 			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow3"
@@ -72,9 +64,19 @@
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 				<Button android:text="@+string/nine" android:id="@+id/ConsoleNine"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/slash" android:id="@+id/ConsoleSlash"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+			</TableRow>
+			<TableRow android:id="@+id/ConsoleButtonsRowTableLayoutRow4"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<Button android:text="@+string/ch" android:id="@+id/ConsoleCh"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 				<Button android:text="@+string/zero" android:id="@+id/ConsoleZero"
 					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
-
+				<Button android:text="@+string/all" android:id="@+id/ConsoleAll"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
+				<Button android:text="@+string/at" android:id="@+id/ConsoleAt"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"></Button>
 			</TableRow>
 		</TableLayout>
 	</TableRow>
